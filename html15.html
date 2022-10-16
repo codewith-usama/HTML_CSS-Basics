@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+
+        /*Element selector*/
+        p{
+            border: 5px solid red;
+        }
+
+        /*ID selector*/
+        #redElement{
+            color: red;
+        }
+
+        /*Class Selector*/
+        .bgblue{
+            background-color: blue;
+            color: yellow;
+        }
+        /* grouping Selector */
+        footer, span{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS Selector</h3>
+
+    <!-- just p is a element selector but if want to color just single paragraph  -->
+
+    <p id="redElement">This is a paragraph to demonstrate css selector</p>
+    <p class="bgblue">This is also a paragraph to demonstrate css selector</p>
+    <div>
+        <p>This is a paragraph in div to demonstrate css selector</p>
+        <span>This is span</span>
+    </div>
+    <footer>This is Footer</footer>
+</body>
+</html>
