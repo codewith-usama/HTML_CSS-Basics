@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <!-- margin->border->padding->content  -->
+    <style>
+        body{
+            background-color: #e6cbf8;
+        }
+
+        /**{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }*/
+        
+        .container{
+            background-color: rgb(231, 230, 241);
+            border: 3px solid rgb(64, 6, 119);
+            /*padding-top: 6 px;
+            padding-bottom: 12px;
+            padding-left: 6px;
+            padding-right: 12px;*/
+            /*padding/margin = top, right, bottom, left*/
+            /*padding: 25px 66px 12px 76px; /*
+            
+            /*padding = x(top/bottom) y(left/right)*/
+            padding: 34px 54x 34px 1px;   
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 533px;
+
+            /*box width will not be affected even we increase padding*/
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ipsam aliquid accusamus maxime eum. Minus placeat nisi corrupti, quisquam cum sint quos dolorum.</p>
+    </div>
+    
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ipsam aliquid accusamus maxime eum. Minus placeat nisi corrupti, quisquam cum sint quos dolorum.</p>
+    </div>
+    
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ipsam aliquid accusamus maxime eum. Minus placeat nisi corrupti, quisquam cum sint quos dolorum.</p>
+    </div>
+    
+
+</body>
+</html>
